@@ -1,0 +1,108 @@
+
+.feed{
+    padding-top: 100px;
+    
+}
+.card{
+    border-radius: 15px;
+    width: 225px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a{
+    color: #337ab7;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: #FFA500;
+    text-decoration: overline;
+}
+
+
+.btn {
+    
+    background-color: #FFA500;
+    
+  }
+
+  .btn:hover {
+    background-color: #808080; /* Color gris al hacer hover */
+    
+  }
+  body{
+    background-color: #a19f992d;
+}
+    
+
+/* INICIO DE BARRA DE NAVEGACION */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.546);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+/* FIN DE BARRA DE NAVEGACION */
+/* INICIO DE CALL TO ACTION EN HOME */
+.jumbotron {
+    background-image: url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+.call {
+    margin-top: 250px;
+    width: fit-content;
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.546);
+
+}
+
+/* FIN DE CALL TO ACTION EN HOME */
+
+/* INICIO SECCION CARRITO */
+.producto {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 10px;
+  
+}
+.total {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: right;
+   
+}
+
+/* FIN SECCION CARRTIO  */
+/* FOOTER ESTILOS INICIO */
+.footer {
+    
+    text-align: center;
+    position: sticky;
+    bottom: 100px;
+}
+.link-hover:hover{
+    cursor: pointer;
+    color: #ffbb00;
+    text-decoration: underline;
+}
+/* FOOTER ESTILOS FIN */
+
+
+
