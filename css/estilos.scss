@@ -1,6 +1,6 @@
 $color-primario: #FFA500;
-$color-secundario: #a19f992d;
-$tamanio-fuente: 16px;
+$color-secundario: #ffc0032d;
+$tamaño-fuente: 16px;
 
 .feed {
     padding-top: 100px;
@@ -27,7 +27,7 @@ $tamanio-fuente: 16px;
         background-color: #FFA500;
 
         &:hover {
-            background-color: #a19f992d; /* Color gris al hacer hover */
+            background-color: #716a6a2d; /* Color gris al hacer hover */
         }
     }
 
@@ -87,4 +87,24 @@ $tamanio-fuente: 16px;
         color: #ffbb00;
         text-decoration: underline;
     }
+}
+
+
+$primary-color: #db4234;
+$button-hover-color: #b99c29;
+
+.btnMasInfo {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #30b929;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; // Transición en el color de fondo al pasar el ratón
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
 }
