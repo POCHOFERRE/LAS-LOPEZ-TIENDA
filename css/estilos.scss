@@ -1,0 +1,90 @@
+$color-primario: #FFA500;
+$color-secundario: #a19f992d;
+$tamanio-fuente: 16px;
+
+.feed {
+    padding-top: 100px;
+    
+    .card {
+        border-radius: 15px;
+        width: 225px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+        color: $color-primario;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+            color: #FFA500;
+            text-decoration: overline;
+        }
+    }
+
+    .btn {
+        background-color: #FFA500;
+
+        &:hover {
+            background-color: #a19f992d; /* Color gris al hacer hover */
+        }
+    }
+
+    body {
+        background-color: #a19f992d;
+    }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.546);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.jumbotron {
+    background-image: url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    .call {
+        margin-top: 250px;
+        width: fit-content;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.546);
+    }
+}
+
+.producto {
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        max-width: 80px;
+        max-height: 80px;
+        margin-right: 10px;
+    }
+
+    .total {
+        margin-top: 10px;
+        font-size: 1.2em;
+        text-align: right;
+    }
+}
+
+.footer {
+    text-align: center;
+    position: sticky;
+    bottom: 100px;
+
+    .link-hover:hover {
+        cursor: pointer;
+        color: #ffbb00;
+        text-decoration: underline;
+    }
+}

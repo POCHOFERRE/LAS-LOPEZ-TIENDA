@@ -32,7 +32,7 @@ a:hover{
   }
 
   .btn:hover {
-    background-color: #808080; /* Color gris al hacer hover */
+    background-color: #a19f992d; /* Color gris al hacer hover */
     
   }
   body{
@@ -100,6 +100,7 @@ a:hover{
     text-align: center;
     position: sticky;
     bottom: 100px;
+  
 }
 .link-hover:hover{
     cursor: pointer;
